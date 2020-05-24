@@ -1,0 +1,642 @@
+
+
+/*--------------------------------------- SCREEN < 959PX ------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 960px) {
+
+
+	.screen-search .box-search{
+		width: 90%;
+		padding: 10px;
+	}
+
+	.screen-search .box-search input{
+		width: 100%;
+		font-size: 15px;
+	}
+
+	.screen-search .box-search i{
+		right: 25px;
+		font-size: 20px;
+	}
+
+	.screen-search i.close-search{
+		font-size: 30px;
+	}
+
+	.mt-959{
+		margin-top: 400px;
+	}
+
+	.bg-promo .promo-text{
+		width: 50%;
+	}
+
+	.bg-promo .promo-text button{
+		width: 30%;
+	}
+
+	.bg-product{
+		margin-top: 70px;
+		height: 900px;
+	}
+
+	.exc .icon{
+		left: -1%;
+	}
+
+	.exc .icon-truck{
+		left: 0.5%;
+	}
+
+	.exc .icon-money{
+		left: -1%;
+	}
+
+	.exc .text{
+		left: 25%;
+	}
+
+	.bg-excellence .box-exc{
+		padding: 30px;
+	}
+
+	.bg-excellence{
+		height: 520px;
+		margin: 30px auto;
+	}
+
+	footer,
+	.product-footer,
+	.footer-about{
+		height: 720px;
+	}
+
+	.footer-about{
+		margin-top: 1050px;
+	}
+
+	.product-footer{
+		margin-top: 300px;
+	}
+
+	.payment{
+		width: 90%;
+		height: 30%;
+		margin: 0px auto;
+	}
+
+	.form-wrap{
+		width: 70%;
+		padding: 40px 40px;
+	}
+
+	.form-login{
+		height: 350px;
+	}
+
+	.form-wrap .form-box{
+		margin-bottom: 30px;
+	}
+
+	.form-box input{
+		padding: 15px 15px;
+	}
+
+	.form-login input[type=submit],
+	.form-register input[type=submit]{
+		width: 30%;
+	}
+
+	.mt-btn button{
+		width: 15%;
+		padding: 8px;
+	}
+
+	.bg-gallery{
+		height: 1150px;
+	}
+
+	.text-profile{
+		padding: 35px 5px 5px 5px;
+	}
+
+	.bg-about{
+		margin-bottom: 250px;
+	}
+
+	.bg-team{
+		margin: -200px auto;
+	}
+
+}
+/*--------------------------------------- SCREEN < 959PX ------------------------------------------------*/
+
+
+
+
+/*--------------------------------------- SCREEN < 639PX ------------------------------------------------*/
+@media (min-width: 320px) and (max-width: 639px) {
+
+
+
+	.menu-wrap ul.menu li a{
+		display: none;
+	}
+
+	/*.menu-wrap ul.icon li i{
+		display: none;
+	}*/
+
+	.menu-wrap ul.icon li i.bars{
+		display: inline-block;
+	}
+
+	.menu-wrap ul.icon li i.close{
+		display: inline-block;
+		position: absolute;
+		font-size: 19px;
+		right: 24px;
+		top: 37px;
+		visibility: hidden;
+	}
+
+	.screen-search .box-search{
+		width: 90%;
+		padding: 10px;
+	}
+
+	.screen-search .box-search input{
+		width: 100%;
+		font-size: 15px;
+	}
+
+	.screen-search .box-search i{
+		right: 25px;
+		font-size: 20px;
+	}
+
+	.screen-search i.close-search{
+		font-size: 30px;
+	}
+
+	.bars.hide{
+		visibility: hidden;
+	}
+
+	.menu-wrap ul.icon li i.close.show{
+		visibility: visible;
+	}
+
+	.banner-sm{
+		position: absolute;
+		width: 90%;
+	}
+
+	.banner-sm h2{
+		font-size: 24px;
+	}
+
+	.banner-sm p{
+		padding-top: 11px;
+		font-size: 15px;
+	}
+
+	.banner-regis{
+		position: absolute;
+		width: 85%;
+	}
+
+	.banner-regis h2{
+		font-size: 24px;
+	}
+
+	.banner-regis p{
+		padding-top: 11px;
+		font-size: 15px;
+	}
+
+	.banner-sm button{
+		margin-top: 12px;
+		width: 30%;
+		padding: 9px;
+		border: none;
+		font-family: "poppins", sans-serif;
+		font-weight: 600;
+		cursor: pointer;
+	}
+
+	.exc-wrap{
+		margin-top: 15px;
+	}
+
+
+	.bg-category .cat-text{
+		bottom: 30px;
+		left: 20px;
+	}
+
+	.bg-category{
+		height: 1200px;
+		/*background-color: red;*/
+	}
+
+	.bg-product{
+		margin-top: 120px;
+		height: 1400px;
+	}
+
+	.bg-promo .promo-text{
+		width: 80%;
+	}
+
+	.bg-promo .promo-text button{
+		width: 60%;
+	}
+
+	.exc .icon{
+		left: -1%;
+	}
+
+	.exc .icon-truck{
+		left: 0.5%;
+	}
+
+	.exc .icon-money{
+		left: -1%;
+	}
+
+	.exc .text{
+		left: 25%;
+	}
+
+	.single{
+		padding: 8px;
+	}
+
+	.bg-excellence .box-exc{
+		padding: 25px;
+	}
+
+	
+
+	.bg-excellence{
+		height: 1000px;
+		margin: 30px auto;
+	}
+
+	.bg-product-page{
+		margin-top: 60px;
+		height: 2050px;
+		/*background-color: red;*/
+	}
+
+	.product-wrap{
+		/*background-color: red;*/
+		height: 2000px;
+	}
+
+	.mt-btn button{
+		width: 80px;
+		font-size: 11px;
+		margin-left: 4px;
+		padding: 8px;
+	}
+
+
+	footer{
+		margin-top: -140px;
+	}
+
+	.product-footer{
+		margin-top: 690px;
+	}
+
+	footer,
+	.product-footer,
+	.footer-about{
+		height: 1190px;
+	}
+
+	.footer-about{
+		margin-top: 2000px;
+	}
+	
+
+
+	.footer-bottom{
+		height: 100px;
+	}
+
+	.footer-bottom .text h3{
+		font-size: 14px;
+	}
+
+	.footer-bottom .img{
+		position: absolute;
+		left: 0;
+		top: 50px;
+		width: 200px;
+	}
+
+	.shopping-cart{
+		width: 100%;
+		transition: ease 0.8s;
+	}
+
+	.shopping-cart .profile{
+		width: 90%;
+		height: 23.5%;
+		padding: 20px 15px;
+	}
+
+	.profile .text{
+		margin-top: 10px;
+		margin-left: 26px;
+		/*background-color: #444;*/
+	}
+
+	.profile .edit{
+		bottom: 31px;
+		left: 72px;
+		width: 25px;
+		height: 25px;
+
+	}
+
+	.profile .edit i{
+		font-size: 10px;
+	}
+
+
+	.profile .img{
+		width: 80px;
+		height: 80px;
+	}
+
+	.payment{
+		width: 90%;
+		/*height: 22%;*/
+		margin: 0px auto;
+	}
+
+	.form-wrap{
+		width: 90%;
+		padding: 40px 20px;
+	}
+
+	.form-login{
+		height: 350px;
+	}
+
+	.form-wrap .form-box{
+		margin-bottom: 30px;
+	}
+
+	.form-box input{
+		padding: 15px 15px;
+	}
+
+	.form-login input[type=submit],
+	.form-register input[type=submit]{
+		width: 40%;
+	}
+
+
+	.bg-product-page{
+		margin-top: 60px;
+		height: 950px;
+		/*background-color: red;*/
+	}
+
+	.bg-gallery{
+		height: 2420px;
+	}
+
+	.bg-gallery .gallery{
+		margin: 10px 7px;
+	}
+
+	.bg-about{
+		margin-top: 50px;
+		height: 620px;
+	}
+
+	.text-profile{
+		padding: 35px 5px 5px 0px;
+	}
+
+	.img-profile{
+		height: 250px;
+	}
+
+	.text-profile h2{
+		font-size: 22px;
+	}
+
+	.text-profile p{
+		font-size: 14px;
+	}
+
+	.bg-team{
+		margin: -400px auto;
+	}
+
+	.team-wrap .team{
+		margin: 60px 10px;
+	}
+	
+
+}
+
+
+
+/*--------------------------------------- SCREEN 320 & 480PX ------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------- SCREEN < 639PX ------------------------------------------------*/
+@media (min-width: 481px) and (max-width: 767px) {
+	.menu-wrap ul.menu li a{
+		display: none;
+	}
+
+	/*.menu-wrap ul.icon li i{
+		display: none;
+	}*/
+
+	.bg-product-page{
+		margin-top: 60px;
+		height: 1050px;
+		/*background-color: red;*/
+	}
+
+	.menu-wrap ul.icon li i.bars{
+		display: inline-block;
+	}
+
+	.menu-wrap ul.icon li i.close{
+		display: inline-block;
+		position: absolute;
+		font-size: 19px;
+		right: 24px;
+		top: 37px;
+		visibility: hidden;
+	}
+
+	.screen-search .box-search{
+		width: 90%;
+		padding: 10px;
+	}
+
+	.screen-search .box-search input{
+		width: 100%;
+		font-size: 15px;
+	}
+
+	.screen-search .box-search i{
+		right: 25px;
+		font-size: 20px;
+	}
+
+	.screen-search i.close-search{
+		font-size: 30px;
+	}
+
+	.bars.hide{
+		visibility: hidden;
+	}
+
+	.menu-wrap ul.icon li i.close.show{
+		visibility: visible;
+	}
+
+	.banner-sm{
+		position: absolute;
+		width: 90%;
+	}
+
+	.banner-sm button{
+		margin-top: 12px;
+		width: 30%;
+		padding: 9px;
+		border: none;
+		font-family: "poppins", sans-serif;
+		font-weight: 600;
+		cursor: pointer;
+	}
+
+	.exc-wrap{
+		margin-top: 15px;
+	}
+
+
+	.bg-category .cat-text{
+		bottom: 30px;
+		left: 20px;
+	}
+
+	.bg-category{
+		height: 1200px;
+		/*background-color: red;*/
+	}
+
+	.bg-product{
+		margin-top: 120px;
+		height: 1400px;
+	}
+
+	.bg-promo .promo-text{
+		width: 50%;
+	}
+
+	.bg-promo .promo-text button{
+		width: 50%;
+	}
+
+	.bg-product{
+		margin-top: 70px;
+		height: 900px;
+	}
+
+	.exc .icon{
+		left: -1%;
+	}
+
+	.exc .icon-truck{
+		left: 0.5%;
+	}
+
+	.exc .icon-money{
+		left: -1%;
+	}
+
+	.exc .text{
+		left: 25%;
+	}
+
+	.bg-excellence .box-exc{
+		padding: 30px;
+	}
+
+	.bg-excellence{
+		height: 520px;
+		margin: 30px auto;
+	}
+
+	footer{
+		height: 720px;
+	}
+
+	.payment{
+		width: 90%;
+		height: 30%;
+		margin: 0px auto;
+	}
+
+	.form-wrap{
+		width: 90%;
+		padding: 40px 40px;
+	}
+
+	.form-login{
+		height: 350px;
+	}
+
+	.form-wrap .form-box{
+		margin-bottom: 30px;
+	}
+
+	.form-box input{
+		padding: 15px 15px;
+	}
+
+	.form-login input[type=submit],
+	.form-register input[type=submit]{
+		width: 40%;
+	}
+
+	.mt-btn button{
+		width: 20%;
+		font-size: 12px;
+		padding: 8px;
+	}
+
+	.text-profile{
+		padding: 35px 5px 5px 0px;
+	}
+	
+
+}
+/*--------------------------------------- SCREEN < 639PX ------------------------------------------------*/
+
+
+
